@@ -117,7 +117,7 @@ def _(calc_pearson_sim, mean_ratings, ratings):
 
 @app.cell
 def _(mo):
-    mo.md("# Calculate Mean Centered Ratings")
+    mo.md("""# Calculate Mean Centered Ratings""")
     return
 
 
@@ -130,7 +130,7 @@ def _(mean_ratings, ratings):
 
 @app.cell
 def _(mo):
-    mo.md("# Calculate Predictions")
+    mo.md("""# Calculate Predictions""")
     return
 
 
